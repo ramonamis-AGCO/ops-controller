@@ -4,8 +4,6 @@ jenkins:
       env:
       - key: "GITHUB_USER"
         value: "${GITHUB_USER}"
-  quietPeriod: 0
-  systemMessage: 'Jenkins configured using CloudBees CI CasC'
 unclassified:
   hibernationConfiguration:
     activities:
