@@ -1,12 +1,13 @@
 apiVersion: "1"
-version: "4"
+version: "3"
 id: "ramonamis-AGCO-ops-controller"
 description: "CloudBees CI configuration bundle for the ramonamis-AGCO ops-controller Controller"
-parent: "base"
 jcasc:
   - "jcasc/credentials.yaml"
   - "jcasc/jenkins.yaml"
 plugins:
   - "plugins.yaml"
+catalog:
+  - "plugin-catalog.yaml"
 items:
   - "items.yaml"
